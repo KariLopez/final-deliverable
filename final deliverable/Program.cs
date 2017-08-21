@@ -85,6 +85,7 @@ namespace final_deliverable
 			newL = Int32.Parse(a);//assinged new values to converted string 
 			newK = Int32.Parse(b);
 			if (//unable to return values of transformation and transformation again
+			//theory is that only sum of last set of digits and sum of first set of digits need to match, that's why I set it up this way
 
 				Program.transformation(int)+Program.transformationAgain(int)== (newL % 10) + (newK % 10))
 			{
